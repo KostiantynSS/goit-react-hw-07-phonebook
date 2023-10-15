@@ -1,0 +1,13 @@
+.listItem {
+  display: flex;
+}
+.listItem:not(:last-child) {
+  margin-bottom: 10px;
+}
+.listItemP {
+  padding: 0;
+  margin: 0;
+}
+.listItemBtn {
+  margin-left: auto;
+}
