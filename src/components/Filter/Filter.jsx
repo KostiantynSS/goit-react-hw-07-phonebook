@@ -14,6 +14,7 @@ const Filter = () => {
 
   return (
     <input
+      id="filter"
       className={css.input}
       type="text"
       value={filter}

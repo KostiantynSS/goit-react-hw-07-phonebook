@@ -1,11 +1,12 @@
 .form {
   border: 1px solid black;
-  width: 20vw;
+  max-width: 200px;
   padding: 15px;
 }
 .form label,
 input {
   display: block;
+  width: 100%;
 }
 .form input {
   margin-top: 10px;
