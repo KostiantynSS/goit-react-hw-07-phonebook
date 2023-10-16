@@ -6,7 +6,7 @@
 .form label,
 input {
   display: block;
-  width: 100%;
+  max-width: 180px;
 }
 .form input {
   margin-top: 10px;
