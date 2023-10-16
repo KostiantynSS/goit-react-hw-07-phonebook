@@ -1,5 +1,5 @@
 import { createSlice, isAnyOf } from '@reduxjs/toolkit';
-import { getThunk, addThunk, deleteThunk } from 'redux/operations';
+import { getThunk, addThunk, deleteThunk } from 'redux/slice/operations';
 
 const handlePending = state => {
   state.isLoading = true;
