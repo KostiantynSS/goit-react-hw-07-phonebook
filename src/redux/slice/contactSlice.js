@@ -21,10 +21,9 @@ const addContactFulfilled = (state, action) => {
 const deleteContactFulfilled = (state, action) => {
   state.isLoading = false;
   state.error = null;
-  // state.items = state.items.filter(item => item.id !== action.payload);
+   state.items = state.items.filter(item => item.id !== action.payload.id);
 
-  const index = state.items.findIndex(({ id }) => id === action.payload.id);
-  state.items.splice(index, 1);
+  
 };
 
 const contactsSlice = createSlice({
